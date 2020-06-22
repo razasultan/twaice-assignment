@@ -1,0 +1,10 @@
+<div class="mx-auto">
+    <div class="form-group col-lg-5 mx-auto">
+        <select name="" class="form-control" id="c" #input (change)='onChangeCell($event)'>
+            <option *ngFor='let cellName of cellNames' value ={{cellName}}>{{cellName}}</option>
+        </select>
+    </div>
+</div>
+<div class="container">
+    <app-line-chart [processedCellData]='cellData' *ngIf="cellData !== undefined"></app-line-chart>
+</div>

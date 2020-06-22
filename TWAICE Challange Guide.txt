@@ -1,0 +1,3 @@
+Dear reviewer
+After run the ng serve 
+please navigate to "Assignment " on the left nav bar for my line chart work using d3 library
